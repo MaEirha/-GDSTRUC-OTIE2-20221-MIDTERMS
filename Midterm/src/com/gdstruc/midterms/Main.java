@@ -3,36 +3,6 @@ package com.gdstruc.midterms;
 import java.util.Scanner;
 
 public class Main {
-/*
-Overview
-Create a program that features a deck of cards that the player can draw cards from.
-
-Parts of the Project
-Turns DONE
-    The program gives commands every turn. The commands are given at random.
-Possible commands are:
-    Draw x cards (x can be a random value from 1 to 5) DONE
-    Discard x cards
-    Get x cards from the discarded pile DONE
-After each round, the program must display the following info:
-    List of cards that the player is currently holding DONE
-    Number of remaining cards in the player deck DONE
-    Number of cards in the discarded pile DONE
-Player Deck
-    Contains 30 cards DONE
-    Give each card a name. Names can be duplicated. DONE
-Discarded Pile
-    This contains all the cards discarded by the player. DONE
-
-Notes
-The player deck and discarded pile should work as a STACK. The next card to be drawn must be the top of the deck.
-You may create the following classes:
-    Card.java
-    CardStack.java
-You may use an array or a linked list for your Stack class.
-The program ends when the player deck is emptied.
-*/
-
     public static void main(String[] args) {
         int choice = 0;
         int cardsLeft = 30;
